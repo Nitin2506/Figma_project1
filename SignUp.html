@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+  <link rel="stylesheet" href="./style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&family=Quicksand:wght@300&family=Red+Rose&family=Reem+Kufi:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <title>Form and Image Page</title>
+</head>
+<body>
+
+  <div class="container-fluid">
+    <div class="row">
+      <!-- Form Side -->
+      <div class="col-md-6 form-center">
+        <div class="col-8 form-container">
+          <h1 class="mb-3">Login</h1>
+          <form>
+            <div class="mb-3 border-dark form-control  input-group input-group-lg">
+                <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="22"
+                height="18"
+                viewBox="0 0 22 18"
+                fill="none"
+              >
+                <path
+                  d="M3 1H19C20.1 1 21 1.9 21 3V15C21 16.1 20.1 17 19 17H3C1.9 17 1 16.1 1 15V3C1 1.9 1.9 1 3 1Z"
+                  stroke="black"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M21 3L14.4408 7.59146C12.3749 9.0376 9.62515 9.0376 7.55923 7.59146L1 3"
+                  stroke="black"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+              <!-- <label for="username" class="form-label">Username</label> -->
+              <input type="text" class="form-control" id="username" placeholder="Username Or Email">
+            </div>
+            <div class="mb-3 border-dark form-control  input-group input-group-lg">
+                <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="20"
+                height="22"
+                viewBox="0 0 20 22"
+                fill="none"
+              >
+                <path
+                  d="M17 10H3C1.89543 10 1 10.8954 1 12V19C1 20.1046 1.89543 21 3 21H17C18.1046 21 19 20.1046 19 19V12C19 10.8954 18.1046 10 17 10Z"
+                  stroke="black"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M5 10V6C5 4.67392 5.52678 3.40215 6.46447 2.46447C7.40215 1.52678 8.67392 1 10 1C11.3261 1 12.5979 1.52678 13.5355 2.46447C14.4732 3.40215 15 4.67392 15 6V10"
+                  stroke="black"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  />
+                </svg>
+              <!-- <label for="password" class="form-label">Password</label> -->
+              <input type="password" class="form-control" id="password" placeholder="Password">
+              <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+            >
+              <path
+                d="M17.94 17.94C16.2306 19.243 14.1491 19.9649 12 20C7.6696 20 4.48731 16.9384 2.68987 14.6032C1.50073 13.0583 1.49648 10.9359 2.69334 9.39699C3.66477 8.14791 4.79553 7.02556 6.06 6.05999M9.9 4.23999C10.5883 4.07887 11.2931 3.99833 12 3.99999C16.3333 3.99999 19.517 7.06577 21.3138 9.40159C22.5004 10.9442 22.5063 13.0622 21.3152 14.6013C21.1609 14.8006 21.0025 14.9969 20.84 15.19M14.12 14.12C13.8454 14.4147 13.5141 14.6511 13.1462 14.8151C12.7782 14.9791 12.3809 15.0673 11.9781 15.0744C11.5753 15.0815 11.1752 15.0074 10.8016 14.8565C10.4281 14.7056 10.0887 14.481 9.80385 14.1961C9.51897 13.9113 9.29439 13.5719 9.14351 13.1984C8.99262 12.8248 8.91853 12.4247 8.92563 12.0219C8.93274 11.6191 9.02091 11.2218 9.18488 10.8538C9.34884 10.4858 9.58525 10.1546 9.88 9.87999"
+                stroke="#6E6E6E"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M1 1L23 23"
+                stroke="#6E6E6E"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+            </div>
+            <div class="mb-5 form-check  spacebetween">
+                <div>
+                  <input
+                    type="checkbox"
+                    class="form-check-input border border-dark"
+                    id="exampleCheck1"
+                  />
+                  <label class="form-check-label" for="exampleCheck1"
+                    >Remember Me</label
+                  >
+                </div>
+                <a class="text-muted" href="">Forgot Password?</a>
+              </div>
+            <button type="submit" class="mb-4 col-md-12 btn-lg btn btn-dark">Login</button>
+           
+
+              <div class="mb-3 form-check  lower">
+                
+                    <input type="checkbox"
+                      class="form-check-input border border-dark"
+                      id="exampleCheck1"
+                    />
+                    <label class="form-check-label policy" for="exampleCheck1"> I understand and agree with the <span>Terms & Conditions</span>  and <span> Privacy Policy</span>.</label
+                    >
+                  
+              
+             
+            </div>
+            <div class="mb-3 form-check lower lower-2">
+                
+               
+                <label class="form-check-label policy" for="exampleCheck1"> Doesn't have an account yeat?  <span> Sign Up</span>.</label
+                >
+     
+        </div>
+            
+          </form>
+        </div>
+      </div>
+
+      <!-- Image Side -->
+      <div class="col-md-6 right-box ">
+        <div class="image-container">
+          <img class="img-fluid" src="./Image/Group 1000004418.png" alt="Placeholder Image">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
